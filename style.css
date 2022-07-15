@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#body_div   {
+    width: 390px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header>#safeBox {
+    background-color: white;
+    height: 44px;
+}
+header>.menu_container {
+    background-color: pink;
+    height: 57px;
+}
+
+main {
+    background-color: palegoldenrod;
+    flex-grow:1;
+}
+
+footer {
+    background-color: mediumaquamarine;
+    height: 10%;
+}
